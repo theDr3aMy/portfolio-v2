@@ -1,0 +1,231 @@
+/************LAYOUT***********/
+body{
+    background-color: #121212;
+    color: white;
+    margin: auto 0;
+    font-family: HELVETICA;
+}
+
+#timer{
+    float:right;
+    margin: 28.14px 200px 0 0;
+    margin-right: 350px;
+}
+
+header{
+    height:100px;
+}
+
+footer h3{
+    margin: 62px 0 62px 0;
+}
+
+.container{
+    width: 50%;
+    float:left;
+}
+.container-1{
+    width: 50%;
+    float: left;
+}
+.what-I-offer{
+    float: right;
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 30px;
+    background-color: #4169e1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.who-am-I{
+    float: right;
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 30px;
+    background-color: #4169e1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+.contact{
+    float: right;
+    width: 250px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 30px;
+    background-color: gray;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.cv{
+    float: right;
+    width: 250px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 30px;
+    background-color: forestgreen;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.quote{
+    float: right;
+    width: 550px;
+    height: 175px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: orange;
+    justify-content: center;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.subpage{
+    float: left;
+    width: 550px;
+    height: 330px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: gray;
+    justify-content: center;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.youtube{
+    float: left;
+    width: 130px;
+    height: 175px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: red;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.instagram{
+    float: left;
+    width: 130px;
+    height: 175px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #f09433;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.facebook{
+    float: left;
+    width: 130px;
+    height: 175px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #3b5998;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.twitter{
+    float: left;
+    width: 130px;
+    height: 175px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #1DA1F2;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+/************HOVER***********/
+
+.youtube:hover{
+    background-color: #EE0000;
+    box-shadow: 0 0 15px grey;
+}
+.instagram:hover{
+    background-color: #e08322;
+    box-shadow: 0 0 15px grey;
+}
+.twitter:hover{
+    background-color: #0C90E1;
+    box-shadow: 0 0 15px grey;
+}
+.facebook:hover{
+    background-color: #2A4887;
+    box-shadow: 0 0 15px grey;
+}
+.what-I-offer:hover{
+    background-color: #3058d0;
+    box-shadow: 0 0 15px grey;
+}
+.who-am-I:hover{
+    background-color: #3058d0;
+    box-shadow: 0 0 15px grey;
+}
+.contact:hover{
+    background-color: #707070;
+    box-shadow: 0 0 15px grey;
+}
+.cv:hover{
+    background-color: #117a11;
+    box-shadow: 0 0 15px grey;
+}
+.subpage:hover{
+    background-color: #707070;
+    box-shadow: 0 0 15px grey;
+}
+
+
+/************TEXT***********/
+h3{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+h1{
+    margin-left: 200px;
+    font-size: 42px;
+    float:left;
+}
+h4{
+    text-align: center;
+    margin-top:5px;
+}
+.who-am-I p{
+    margin: 0 0 15px 0;
+}
+.what-I-offer p{
+    margin: 0 0 15px 0;
+}
+.cv p{
+    margin: 0 0 15px 0;
+}
+.contact p{
+    margin: 0 0 20px 0;
+}
+.quote p{
+    margin: 0 20px 20px 20px;
+}
+.subpage p{
+    margin: 0 20px 20px 20px;
+}
+
+/************IMAGES***********/
+.container-1 img{
+    width: 110px;
+    height: 110px;
+    margin: 30px 10px 10px 10px;
+}
+.container img{
+    width: 75px;
+    height: 75px;
+    margin-left: 5px;
+}
+.cv img{
+    margin-left: 20px;
+}
+.contact img{
+    margin-left: 17px;
+    margin-top: 10px;
+}
